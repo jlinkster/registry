@@ -2,7 +2,7 @@ version: "3.6"
 
 services:
   jlinkster-registry:
-    image: jhipster/registry
+    image: jhipster/jhipster-registry
     container_name: jlinkster-registry
     ports:
       - "8761:8761"
