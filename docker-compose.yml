@@ -1,0 +1,16 @@
+version: "3.6"
+
+services:
+  jlinkster-registry:
+    image: jhipster/registry
+    container_name: jlinkster-registry
+    ports:
+      - "8761:8761"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+      - SPRING_SECURITY_USER_NAME=$JLINKSTER_REGISTRY_USERNAME
+      - SPRING_SECURITY_USER_PASSWORD=$JLINKSTER_REGISTRY_PASSWORD
+      - JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET=$JLINKSTER_REGISTRY_JWT_TOKEN
+      - JHIPSTER_SECURITY_AUTHENTICATION_JWT_TOKEN_VALIDITY_IN_SECONDS=86400
+      - SPRING_CLOUD_CONFIG_SERVER_COMPOSITE_0_TYPE=git
+      - SPRING_CLOUD_CONFIG_SERVER_COMPOSITE_0_URI=https://github.com/jlinkster/config
