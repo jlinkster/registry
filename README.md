@@ -7,6 +7,7 @@ Administration Server functionality, for the JLinkster application.
 
 * [JLinkster Config](https://github.com/jlinkster/config)
 * [JLinkster Registry](https://github.com/jlinkster/registry)
+* [JLinkster Vault](https://github.com/jlinkster/vault)
 * [JLinkster UAA](https://github.com/jlinkster/uaa)
 * [JLinkster Gateway](https://github.com/jlinkster/gateway)
 * [JLinkster Web](https://github.com/jlinkster/web)
