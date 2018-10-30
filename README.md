@@ -14,11 +14,3 @@ Administration Server functionality, for the JLinkster application.
 * [JLinkster Profile Service](https://github.com/jlinkster/profile)
 * [JLinkster Connections Service](https://github.com/jlinkster/connections)
 * [JLinkster Recommendations Service](https://github.com/jlinkster/recommendations)
-
-## Configuration
-
-The only runtime configuration required is to provide the username and password that clients will use to access
-the registry.
-
-* JLINKSTER_REGISTRY_USERNAME: The username the clients will use to access the registry
-* JLINKSTER_REGISTRY_PASSWORD: The password the clients will use to access the registry
